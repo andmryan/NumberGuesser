@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guesser</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css">
+    <script defer src="./app.js"></script>
+</head>
+<body>
+<section class="section">
+    <div class="container">
+        <!-- Welcome Message -->
+        <h1 class="title">
+            Number Guesser
+        </h1>
+        <!-- Instructions -->
+        <p>
+            Guess a number between 1 and 100.
+        </p>
+        <!-- Guess Box -->
+        <div class="grid" id="guessBox">
+            <input class="input" type="text" placeholder="Enter your guess." id="guessInput"/>
+            <input class="button" value="Submit" id="guessSubmit"/>
+            <input class="button" value="Reset" id="reset"/>
+        </div>
+        <!-- Game Message -->
+         <div class = "column">
+            <p id="gameMessage"></p>
+         </div>
+         <!-- Score Tracker -->
+         <div class="columns">
+            <div class="column is-one-half">Previous Guesses: <span id="prevGuesses"></span></div>
+            <div class="column is-one-half">Guesses Left: <span id="guessesLeft"></span></div>
+         </div>
+    </div>
+</section>
+</body>
+</html>
