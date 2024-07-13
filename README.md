@@ -3,7 +3,7 @@
 # Number Guesser
 
 ### <ins>Getting Started</ins>
-[Number Guesser](https://github.com/andmryan/NumberGuesser)
+[Number Guesser](https://andmryan.github.io/NumberGuesser/)
 </br>
 Number Guesser is a simple game where you try to figure out what random number the computer picked. Just input a number into the text field and go from there. You have ten chances to figure out what it is. Best of luck!
 
